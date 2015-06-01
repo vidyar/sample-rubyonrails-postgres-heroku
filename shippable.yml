@@ -1,6 +1,5 @@
 language: ruby
 
-
 rvm:
   - 1.9.3
 
@@ -26,7 +25,6 @@ after_success:
   - heroku run rake db:migrate
 
 build_image: shippable/minv2
-
 
 archive: true
 
