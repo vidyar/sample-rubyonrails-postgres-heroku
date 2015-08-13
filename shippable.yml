@@ -23,7 +23,7 @@ after_success:
   - git push -f heroku $BRANCH:master
   - heroku run rake db:migrate
 
-build_image: shippable/minv2
+#build_image: shippable/minv2
 
 archive: true
 
