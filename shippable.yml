@@ -2,7 +2,6 @@ language: ruby
 
 rvm:
   - 1.9.3
-
 env:
   global:
     - APP_NAME=rubyonrails-postgres-heroku
@@ -29,4 +28,3 @@ after_success:
 archive: true
 
 #push to quay!!!!
-
